@@ -1,0 +1,150 @@
+/* Diseño general de la aplicación */
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #f1f5f9;
+}
+
+body {
+  margin: 0;
+  background-color: #111827;
+}
+
+/* Título principal */
+h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+  color: #4ade80;
+}
+
+h2 {
+  margin-top: 36px;
+  font-size: 24px;
+}
+
+p {
+  color: #cbd5e1;
+}
+
+/* Campo para escribir ejercicios */
+input {
+  padding: 12px;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  background-color: #1f2937;
+  color: white;
+  font-size: 16px;
+}
+
+/* Botones */
+button {
+  padding: 12px 16px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4ade80;
+  color: #111827;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #22c55e;
+}
+
+.ejercicio-card {
+  display: block;
+  padding: 18px;
+  margin-top: 12px;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 12px;
+}
+
+.ejercicio-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.nombre-ejercicio {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.acciones-ejercicio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.acciones-ejercicio button {
+  margin-left: 0;
+}
+
+.formulario-edicion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #374151;
+}
+
+.formulario-edicion input {
+  flex: 1;
+  min-width: 180px;
+}
+
+.formulario-edicion button {
+  margin-left: 0;
+}
+
+.formulario-edicion .mensaje-error {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.boton-eliminar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b2027;
+  color: #f87171;
+  border: 1px solid #65303b;
+  padding: 10px;
+  margin-left: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.boton-eliminar:hover {
+  background-color: #65303b;
+  color: #ffffff;
+}
+
+.formulario-ejercicio {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.formulario-ejercicio input {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.formulario-ejercicio button {
+  margin-left: 0;
+}
+
+.mensaje-error {
+  color: #ef4444;
+  font-size: 14px;
+  margin-top: 5px;
+}
