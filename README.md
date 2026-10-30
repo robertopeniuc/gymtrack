@@ -6,6 +6,16 @@ GymTrack is a personal fitness management application designed to help users org
 
 The project is currently in its initial development stage, focusing on building a solid foundation for a more complete fitness platform.
 
+## Screenshots
+
+### Main dashboard
+![GymTrack main dashboard](screenshots/gymtrack-main.png)
+
+### Edit exercise
+![Editing an exercise](screenshots/gymtrack-edit.png)
+
+### Form validation
+![Exercise form validation](screenshots/gymtrack-validation.png)
 ## Features
 
 ### Current Features
